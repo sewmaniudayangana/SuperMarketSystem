@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="751.0" prefWidth="909.0" styleClass="context" stylesheets="@../styles/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.IncomePageFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="3.0" layoutY="9.0" prefHeight="48.0" prefWidth="909.0" text="INCOME  REPORT" textFill="#030000">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

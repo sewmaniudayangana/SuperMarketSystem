@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="751.0" prefWidth="909.0" styleClass="context" stylesheets="@../styles/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MovableItemFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="3.0" layoutY="4.0" prefHeight="48.0" prefWidth="909.0" text="MOVABLE  ITEM" textFill="#030000">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="28.0" />
+         </font>
+      </Label>
+      <JFXTreeTableView layoutX="100.0" layoutY="141.0" prefHeight="260.0" prefWidth="738.0">
+         <columns>
+            <TreeTableColumn prefWidth="183.0" text="Item Code" />
+            <TreeTableColumn prefWidth="187.0" text="Qty On Hand" />
+            <TreeTableColumn prefWidth="188.0" text="Sold Qty" />
+            <TreeTableColumn prefWidth="178.0" text="Total" />
+         </columns>
+      </JFXTreeTableView>
+      <JFXTreeTableView layoutX="97.0" layoutY="467.0" prefHeight="268.0" prefWidth="738.0">
+         <columns>
+            <TreeTableColumn prefWidth="191.0" text="Item Code" />
+            <TreeTableColumn prefWidth="195.0" text="Qty On Hand" />
+            <TreeTableColumn prefWidth="178.0" text="Sold Qty" />
+            <TreeTableColumn prefWidth="172.0" text="Total" />
+         </columns>
+      </JFXTreeTableView>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="93.0" prefHeight="36.0" prefWidth="316.0" text="Most Movable Item" textFill="#110000">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="420.0" prefHeight="36.0" prefWidth="293.0" text="Least Movable Item" textFill="#0a0000">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

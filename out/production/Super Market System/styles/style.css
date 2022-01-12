@@ -1,0 +1,87 @@
+.admin-background{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%,#f89d68,#f0f0f0);
+}
+.buttonC{
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-background-color:  #ffff5c;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+}
+.buttonC:hover{
+    -fx-background-color:white;
+}
+.buttonA{
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-background-color: #ffc7e3;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+}
+.buttonA:hover{
+    -fx-background-color:white;
+}
+.ManageBtns{
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+.ManageBtns:hover{
+    -fx-background-color:white;
+}
+.ManageBtns1{
+    -fx-background-color:  blue;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+.ManageBtns1:hover{
+    -fx-background-color:#2e2e2e;
+}
+.ManageBtns2{
+    -fx-background-color:  #ff5c5c;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+.ManageBtns2:hover{
+    -fx-background-color:#2e2e2e;
+}
+.ManageBtns3{
+    -fx-background-color:  #00a300;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+.ManageBtns3:hover{
+    -fx-background-color:#2e2e2e;
+}
+.imagebtn{
+    -fx-background-color:  #ffdd1f;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+.imagebtn:hover{
+    -fx-background-color:white;
+}
+.context{
+    -fx-background-color:  #585660;
+    -fx-border-color: white;
+    -fx-background-radius: 15;
+    -fx-border-radius:15;
+    -fx-border-width: 1;
+}
+.text{
+    -fx-background-color:  #ccccfd;
+    -fx-background-radius: 15;
+    -fx-border-radius:15;
+}
+.loginBg{
+    //-fx-background-image: url("../assets/m.jpg");
+}

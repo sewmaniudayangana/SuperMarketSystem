@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="751.0" prefWidth="909.0" styleClass="context" stylesheets="@../styles/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MakePaymentPageContoller">
+   <children>
+      <Label alignment="CENTER" layoutX="-2.0" layoutY="2.0" prefHeight="48.0" prefWidth="909.0" text="MAKE  PAYMENT" textFill="#030000">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="521.0" prefHeight="38.0" prefWidth="91.0" text="Total  :">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextField layoutX="162.0" layoutY="515.0" prefHeight="48.0" prefWidth="122.0" promptText="Total">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="308.0" layoutY="520.0" prefHeight="38.0" prefWidth="76.0" text="Pay  :">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextField layoutX="394.0" layoutY="515.0" prefHeight="48.0" prefWidth="122.0" promptText="Pay">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="557.0" layoutY="521.0" prefHeight="38.0" prefWidth="109.0" text="Balance  :">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextField layoutX="681.0" layoutY="515.0" prefHeight="48.0" prefWidth="135.0" promptText="Balance">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <JFXTreeTableView layoutX="20.0" layoutY="93.0" prefHeight="397.0" prefWidth="868.0">
+         <columns>
+            <TreeTableColumn prefWidth="109.0" text="Item Code" />
+            <TreeTableColumn prefWidth="124.0" text="Customer Id" />
+            <TreeTableColumn prefWidth="161.0" text="Customer Name" />
+            <TreeTableColumn prefWidth="105.0" text="Qty On Hand" />
+            <TreeTableColumn prefWidth="110.0" text="Unit Price" />
+            <TreeTableColumn prefWidth="125.0" text="Discount" />
+            <TreeTableColumn prefWidth="133.0" text="Total" />
+         </columns>
+      </JFXTreeTableView>
+      <Button layoutX="705.0" layoutY="643.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="144.0" styleClass="ManageBtns1" stylesheets="@../styles/style.css" text="Print" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

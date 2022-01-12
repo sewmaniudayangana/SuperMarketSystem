@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="context" prefHeight="511.0" prefWidth="858.0" styleClass="context" stylesheets="@../styles/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewCustomerTableController">
+   <children>
+      <Label alignment="CENTER" prefHeight="48.0" prefWidth="857.0" text="ALL  CUSTOMER" textFill="#140000">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="28.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblCustomer" layoutX="36.0" layoutY="114.0" prefHeight="364.0" prefWidth="789.0">
+        <columns>
+          <TableColumn fx:id="colId" prefWidth="101.0" text="Customer Id" />
+          <TableColumn fx:id="colTitle" prefWidth="111.0" text="Customer Title" />
+            <TableColumn fx:id="colName" prefWidth="122.0" text="Name" />
+            <TableColumn fx:id="colAddress" prefWidth="113.0" text="Address" />
+            <TableColumn fx:id="colCity" prefWidth="114.0" text="City" />
+            <TableColumn fx:id="colProvince" prefWidth="105.0" text="Province" />
+            <TableColumn fx:id="colPCode" prefWidth="122.0" text="Postal code" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
